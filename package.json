@@ -1,0 +1,22 @@
+{
+  "name": "epson-projector-controller",
+  "version": "1.0.0",
+  "description": "Utility to control an Epson branch projector via rs-232 serial.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelarz/epson-projector-controller.git"
+  },
+  "author": "TheLarz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelarz/epson-projector-controller/issues"
+  },
+  "homepage": "https://github.com/thelarz/epson-projector-controller#readme",
+  "dependencies": {
+    "projector-controller": "^1.0.1"
+  }
+}
