@@ -3,6 +3,14 @@
   "version": "1.0.1",
   "description": "Utility to control an Epson branch projector via rs-232 serial.",
   "main": "index.js",
+  "bin": {
+    "espson-projector": "index.js"
+  },
+  "preferGlobal": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
